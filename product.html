@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title></title>
+    <!-- meta使用viewport以确保页面可自由缩放 -->
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <!-- 引入 jQuery Mobile 样式 -->
+    <link rel="stylesheet" href="http://code.jquery.com/mobile/1.4.5/jquery.mobile-1.4.5.min.css">
+    <!--<link rel="stylesheet" href="js/jquery.mobile-1.4.5.min.css">-->
+    <!-- 引入 jQuery 库 -->
+    <script src="http://code.jquery.com/jquery-1.11.3.min.js"></script>
+    <!--<script src="js/jquery-3.2.1.min.js"></script>-->
+    <!-- 引入 jQuery Mobile 库 -->
+    <script src="http://code.jquery.com/mobile/1.4.5/jquery.mobile-1.4.5.min.js"></script>
+    <!--<script src="js/jquery.mobile-1.4.5.min.js"></script>-->
+    <!-- 引入 自己的事件和样式 -->
+    <script src="js/main.js"></script>
+    <link rel="stylesheet" href="css/main.css">
+</head>
+<body>
+    <div data-role="header">
+        <a href="index.html" class="ui-btn ui-icon-arrow-l ui-btn-icon-left">首页</a>
+        <h3>产品中心</h3>
+        <a href="#overlayPanel" class="ui-btn ui-corner-all ui-icon-bars ui-btn-icon-notext">菜单</a>
+
+    </div>
+    <div data-role="panel" id="overlayPanel" data-display="overlay">
+        <!--<a href="#pageone" data-rel="close" class="ui-btn ui-corner-all ui-icon-home ui-btn-icon-notext"></a>-->
+        <ul data-role="listview">
+            <li><a href="index.html" class="ui-icon-home">主页</a></li>
+            <li><a href="company.html">关于我们</a></li>
+            <li><a href="#">公司产品</a></li>
+            <li><a href="info.html" class="ui-icon-user">个人中心</a></li>
+        </ul>
+    </div>
+    <div data-role="main" class="ui-content">
+        <div class="ui-grid-a">
+            <div class="ui-block-a">
+                <div data-role="content">
+                    <a href="page/fr-a.html"><img src="img/FR-a2.png" alt=""></a>
+                    <h6>行星搅拌FR-全自动</h6>
+                    <p>适合中型规模以上及大型餐饮业使用，性价比高，能耗低，适合炒制单一品种菜品或原材料加工，节省人力成本</p>
+                </div>
+            </div>
+            <div class="ui-block-b">
+                <div data-role="content">
+                    <a href="page/fr-b.html"><img src="img/FR-b.png" alt=""></a>
+                    <h6>行星搅拌FR-半自动</h6>
+                    <p>适合中型规模以上及大型餐饮业使用，性价比高，能耗低，适合炒制单一品种菜品或原材料加工，节省人力成本</p>
+                </div>
+            </div>
+            <div class="ui-block-a">
+                <div data-role="content">
+                    <a href="page/gt-a.html"><img src="img/GT-a.png" alt=""></a>
+                    <h6>滚筒搅拌GT-全自动</h6>
+                    <p>适合中型规模以上及大型餐饮业使用，性价比高，能耗低，适合炒制单一品种菜品或原材料加工，节省人力成本</p>
+                </div>
+            </div>
+            <div class="ui-block-b">
+                <div data-role="content">
+                    <a href="page/gt-b.html"><img src="img/GT-b.png" alt=""></a>
+                    <h6>滚筒搅拌GT -半自动</h6>
+                    <p>适合中型规模以上及大型餐饮业使用，性价比高，能耗低，适合炒制单一品种菜品或原材料加工，节省人力成本</p>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+</html>

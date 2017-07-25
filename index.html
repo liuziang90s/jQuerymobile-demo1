@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title></title>
+    <!-- meta使用viewport以确保页面可自由缩放 -->
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <!-- 引入 jQuery Mobile 样式 -->
+    <link rel="stylesheet" href="http://code.jquery.com/mobile/1.4.5/jquery.mobile-1.4.5.min.css">
+    <!--<link rel="stylesheet" href="js/jquery.mobile-1.4.5.min.css">-->
+    <!-- 引入 jQuery 库 -->
+    <script src="http://code.jquery.com/jquery-1.11.3.min.js"></script>
+    <!--<script src="js/jquery-3.2.1.min.js"></script>-->
+    <!-- 引入 jQuery Mobile 库 -->
+    <script src="http://code.jquery.com/mobile/1.4.5/jquery.mobile-1.4.5.min.js"></script>
+    <!--<script src="js/jquery.mobile-1.4.5.min.js"></script>-->
+    <!-- 引入 自己的 样式 -->
+    <link rel="stylesheet" href="css/main.css">
+    <script src="js/main.js"></script>
+</head>
+<body>
+    <div data-role="header">
+        <a href="#" class="ui-btn ui-icon-home ui-btn-icon-left">主页</a>
+        <h3>苏州远安自动化设备有限公司</h3>
+        <a href="#overlayPanel" class="ui-btn ui-corner-all ui-icon-bars ui-btn-icon-notext">菜单</a>
+
+    </div>
+    <div data-role="panel" id="overlayPanel" data-display="overlay">
+        <!--<a href="#pageone" data-rel="close" class="ui-btn ui-corner-all ui-icon-home ui-btn-icon-notext"></a>-->
+        <ul data-role="listview">
+            <li><a href="#" class="ui-icon-home">主页</a></li>
+            <li><a href="company.html">关于我们</a></li>
+            <li><a href="product.html">公司产品</a></li>
+            <li><a href="info.html" class="ui-icon-user">个人中心</a></li>
+        </ul>
+    </div>
+    <div data-role="main" class="ui-content">
+        <img src="img/1.jpg" alt="">
+        <div data-role="content">
+            <div data-role="navbar">
+                <ul>
+                    <li><a href="#" data-icon="search">FR-半自动</a></li>
+                    <li><a href="#" data-icon="search">FR-全自动</a></li>
+                    <li><a href="#" data-icon="search">GT-半自动</a></li>
+                    <li><a href="#" data-icon="search">GT-全自动</a></li>
+                </ul>
+            </div>
+        </div>
+        <div data-role="content">
+            <img src="img/jianjie.png" alt="">
+        </div>
+        <div data-role="content">
+            <h3>实现厨房机械智能全自动化</h3>
+            <p>苏州远安自动化设备有限公司成立于2006年，长年从事工控产品零配件及航天工业产品零配件加工生产，累积了大量的工艺经验,是一家集科研、设计、生产、维修、销售和系统集成为一体的高新技术企业。</p>
+        </div>
+        <div data-role="content">
+            <a href="tel:0516-8888888" class="ui-btn ui-corner-all">咨询热线：0516-8888888</a>
+        </div>
+    </div>
+
+    <div data-role="footer">
+        <h6>公司地址：江苏省苏州市吴中区胥口镇孙武路618号</h6>
+    </div>
+
+</body>
+</html>
